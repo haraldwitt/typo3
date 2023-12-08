@@ -39,7 +39,7 @@ Migration
 =========
 
 In case :typoscript:`config.spamProtectEmailAddresses` is used, make use of
-:html:`<f.link.email email="{email}">` view-helper which returns the
+:html:`<f:link.email email="{email}">` view-helper which returns the
 complete :html:`<a>` tag like this:
 
 .. code-block:: html
